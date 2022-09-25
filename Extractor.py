@@ -8,7 +8,8 @@ import requests
 from os import path
 from email.mime.text import MIMEText
 from concurrent.futures import ThreadPoolExecutor
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)try:
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+try:
         import requests
         import urllib3
         import socket
